@@ -1,0 +1,51 @@
+Body {
+background-color: skyblue;
+padding: 5px;
+}
+
+h1 {
+font-family: Verdana, sans-serif;
+font-size: 20px;
+text-align: center;
+}
+
+li {
+float: left;
+display: inline-block;
+height: 22px;
+widht: 100px;
+padding: 12px;
+margin: 2px;
+text-align: center;
+border-left: 2px white;
+border-right: 1px white;
+background-color: blue;
+}
+
+li:hover {
+background-color: lightblue;
+border-style: none;
+}
+
+p {
+margin: 0px;
+background-color: white;
+text-align: center;
+padding: 20px 20px 20px 20px;
+}
+
+#mijn-tabel {
+border-collapse: collapse;
+widht: 100%
+}
+
+#mijn-tabel th, #mijn-tabel td {
+border: 5px solid #dddd;
+padding: 8px;
+text-align: left;
+}
+
+footer {
+background-color: skyblue
+padding: 5px;
+} 

@@ -1,0 +1,63 @@
+Body {
+background-color: skyblue;
+padding: 5px;
+}
+
+h1 {
+font-family: Verdana;
+font-size: 20px;
+text-align: center;
+}
+
+li {
+float: left;
+display: inline-block;
+height: 22px;
+widht: 100px;
+padding: 12px;
+margin: 2px;
+text-align: center;
+border-left: 2px white;
+border-right: 1px white;
+background-color: blue;
+}
+
+li:hover {
+background-color: lightblue;
+border-style: none;
+}
+
+form { 
+text-align: center;
+margin: 20px;  
+align-items: center; 
+} 
+
+label { 
+text-align: center;
+margin-top: 10px; 
+margin-bottom: 5px; 
+font-weight: bold; 
+}
+ 
+input[type="text"], input[type="email"], input[type="phone"], textarea {
+text-align: center;
+padding: 8px; 
+border: solid 1px #ccc; 
+border-radius: 3px; 
+width: 100%; 
+box-sizing: border-box;
+} 
+
+button [type="Verzend"] { 
+background-color: grey; 
+color: white; 
+padding: 10px 20px; 
+border: none; 
+border-radius: 3px; 
+margin-top: 10px; } 
+
+footer {
+background-color: skyblue;
+padding: 5px;
+}
